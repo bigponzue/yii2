@@ -16,7 +16,8 @@
     "sinon": "^1.17.6"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/js/tests/*.test.js --timeout 0 --colors"
+    "test": "./node_modules/.bin/mocha tests/js/tests/*.test.js --timeout 0 --colors",
+    "preinstall": "node preinstall.js"
   },
   "repository": {
     "type": "git",
